@@ -2,7 +2,13 @@
 
 ## Estado y contenido
 
-Esta carpeta es una copia independiente del repositorio público `rubendcl/Influencers` (commit de origen `a1b6d2c`). Los HTML de `docs/` coinciden con ese origen. La publicación en internet sigue pendiente: no hay una cuenta de Netlify conectada en esta sesión.
+Esta carpeta es una copia independiente del repositorio público `rubendcl/Influencers` (commit de origen `a1b6d2c`). Los HTML de `docs/` coinciden con ese origen. Los reportes ya están publicados en Vercel; la publicación en Netlify sigue pendiente de autorización de la cuenta.
+
+Publicación verificada en Vercel:
+
+- [Portada](https://influencia360-reportes.vercel.app/)
+- [Exploración de datos](https://influencia360-reportes.vercel.app/dashboard_datos.html)
+- [Resultados bayesianos](https://influencia360-reportes.vercel.app/dashboard_resultados.html)
 
 El sitio está preparado para publicar como contenido estático, sin servidor de R ni compilación en Netlify. `netlify.toml` indica `docs` como directorio de publicación. La portada `index.html` enlaza a los dos reportes requeridos:
 
